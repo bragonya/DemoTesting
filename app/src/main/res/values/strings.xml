@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoxAppTest</string>
+    <string name="app_name">Fox App</string>
     <string name="mock_title_favs">Title</string>
     <string name="mock_description_favs">Description</string>
     <string name="mock_event_picture_description_favs">Event picture</string>
