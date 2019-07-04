@@ -1,13 +1,12 @@
 package com.example.foxapptest.favorites.model
 
-import android.service.quicksettings.Tile
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
+@Entity(tableName = "favorites")
 data class FavoriteModel (
-
+    @PrimaryKey var id : String,
     var title : String,
     var description : String,
-    var id : String,
     var image : String
-
-
 )
