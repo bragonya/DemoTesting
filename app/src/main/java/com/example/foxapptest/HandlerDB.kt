@@ -13,10 +13,10 @@ class HandlerDB {
 
     }
 
-    fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>{
+    fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>?{
 
 
-
+        return null
         
     }
 }
