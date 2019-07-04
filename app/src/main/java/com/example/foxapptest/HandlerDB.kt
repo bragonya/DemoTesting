@@ -1,29 +1,22 @@
 package com.example.foxapptest
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.example.foxapptest.favorites.model.*
 
 class HandlerDB {
 
-    fun saveFavorite(favoriteNewItem : FavoriteModel){
-
-
-    }
-
-    fun deleteFavorite(favoriteNewItem : FavoriteModel){
-
+    fun saveFavorite(){
 
     }
 
-    /*fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>{
+    fun deleteFavorite(){
+
+    }
+
+    fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>?{
 
 
-        
-    }*/
-
-    fun count(): Int{
-
-
-        return 0;
+        return MutableLiveData()
     }
 }
