@@ -4,7 +4,7 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import com.example.foxapptest.favorites.model.FavoriteModel
 
-@Database(entities = arrayOf(FavoriteModel::class), version = 1)
+@Database(entities = [FavoriteModel::class], version = 1)
 abstract class AppDatabase:RoomDatabase() {
     abstract fun favoriteDao(): FavoriteDao
 }
