@@ -1,6 +1,7 @@
 package com.example.foxapptest
 
-import android.arch.lifecycle.LiveData
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.example.foxapptest.favorites.model.*
 
 class HandlerDB {
@@ -16,7 +17,6 @@ class HandlerDB {
     fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>?{
 
 
-        return null
-        
+    return MutableLiveData()
     }
 }
