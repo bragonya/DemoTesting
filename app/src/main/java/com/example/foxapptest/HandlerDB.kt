@@ -6,11 +6,11 @@ import com.example.foxapptest.favorites.model.*
 
 class HandlerDB {
 
-    fun saveFavorite(){
+    fun saveFavorite(favoriteModel: FavoriteModel){
 
     }
 
-    fun deleteFavorite(){
+    fun deleteFavorite(favoriteModel: FavoriteModel){
 
     }
 
@@ -18,5 +18,9 @@ class HandlerDB {
 
 
         return MutableLiveData()
+    }
+
+    fun count():Int{
+        return 0
     }
 }
