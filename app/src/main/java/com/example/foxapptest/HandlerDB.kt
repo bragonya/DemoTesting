@@ -5,18 +5,25 @@ import com.example.foxapptest.favorites.model.*
 
 class HandlerDB {
 
-    fun saveFavorite(){
+    fun saveFavorite(favoriteNewItem : FavoriteModel){
+
 
     }
 
-    fun deleteFavorite(){
+    fun deleteFavorite(favoriteNewItem : FavoriteModel){
+
 
     }
 
-    fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>{
-
+    /*fun findFavorite(favoriteSearch: FavoriteModel) : LiveData<FavoriteModel>{
 
 
         
+    }*/
+
+    fun count(): Int{
+
+
+        return 0;
     }
 }
